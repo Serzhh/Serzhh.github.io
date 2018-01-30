@@ -1,0 +1,133 @@
+@media screen and (max-width: 900px) {
+    .text>p {
+        margin: 0 5%;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 2%;
+    }
+   .text>h3 {
+        font-size: 15px;
+        margin-top: 10%;
+        text-align: center;    
+    }
+      .text>img {
+        display: none;
+    }
+    .block_10 {
+    flex-direction: column-reverse;
+}
+     .block_10 {
+        text-align: center;
+    }
+    
+    .vintage_olivia {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main_menu ul li img {
+        display: none;
+    }
+    .main_menu {
+        padding-top: 5%;
+    
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    .bicycle_company {
+        display: none;
+    }
+    .vintage_olivia {
+        width: 100vw;
+        
+    }
+    .seat {
+        width: 100vw;
+    }
+    
+    .vintage {
+        display: none;
+    }
+    .seat_2 {
+        width: 100vw;
+    }
+    .bicycles {
+        display: none;
+    }
+    .bicycles_phone {
+        display: none;
+    }
+    .seat_3 {
+        width: 100vw;
+    }
+    
+     .text>img {
+        display: block;
+    }
+    .block_7_seat_3 {
+        display: none;
+        
+    }
+    .three_pikt {
+        display: none;
+    }
+    .bag {
+        display: none;
+    }
+    .wheel {
+        display: none;
+    }
+    .active {
+        width: 100vw;
+    }
+     .shop_now {
+        width: 100vw;
+    }
+    .seat_white {
+        width: 50vw;
+    }
+    .bag_white {
+        width: 50vw;   
+    }
+    .block_2 .content p {
+        font-size: 15px;
+    }
+    .block_2 .content h3 {
+        font-size: 16px;
+    }
+    .block_6 h4{
+        margin: 3% 0;
+    }
+    .block_9 p {
+        margin: 10% 0 ;
+    }
+   
+    
+    
+}
+
+@media screen and (max-width: 530px) {
+    .block_9 form input[type="search"] {
+        width: 58%;
+        margin-left: 2%;
+    }
+}
+    
+    
+@media screen and (max-width: 470px) {
+      .main_menu ul li {
+        padding-right: 20px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+      .main_menu ul li {
+        padding-right: 10px;
+    }
+    
+}
+    
+    
