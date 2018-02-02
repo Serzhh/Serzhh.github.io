@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url(../font/RalewayRegular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../font/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../font/Lato-Light.ttf);
+}
+@font-face {
+    font-family: RalewayMedium;
+    src: url(../font/RalewayMedium.ttf);
+}
+
+@font-face {
+    font-family: RalewayExtraBold;
+    src: url(../font/RalewayExtraBold.ttf);
+}
+
+@font-face {
+    font-family: RalewaySemiBold;
+    src: url(../font/RalewaySemiBold.ttf);
+}
