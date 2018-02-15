@@ -262,12 +262,10 @@
 }
 
 .group_block_hover:hover {
-    background-color: #e1e1e1;
-    -webkit-transition: 2s;
-    transition: 2s;
+   opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
     cursor: pointer;
-    -webkit-transform: rotate(50deg);
-    transform: rotate(10deg);
     
 }
 
