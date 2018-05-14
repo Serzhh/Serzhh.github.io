@@ -1,0 +1,280 @@
+
+@media only  screen 
+    and (max-width: 1500px){
+        .main-menu ul {
+            margin-left: 100px;
+        }
+        .main-menu ul  li {
+            margin-right: 30px;
+        }
+    }
+/* laptop   1366x768*/
+
+
+
+
+
+@media only  screen 
+    and (max-width: 1200px) {
+        .header-center {
+            height: auto;
+            margin-top: 0px;
+            flex-direction: column;
+            
+            
+        }
+        .meat-lovers {
+            margin: 10px  0;
+        }
+        .header-top {
+           background-size: cover;
+            background-position: center; 
+        }
+        .content-3 > a {
+            right: 0;
+            top: 330px;
+        }
+    }
+/*fire HDX 8.9, laptop   1280x800*/
+
+
+
+
+
+@media only  screen 
+    and (max-width: 1100px) {
+        .main-menu ul {
+            display: inherit;
+            position: absolute;
+            padding: 0 20px;
+            right: 50px;
+            top: 150px;
+            margin: 0;
+            border: 1px solid #000;
+            background-color: rgba(18, 17, 17, 0.5);
+
+        }
+        .main-menu ul li {
+            margin: 20px 0;
+        }
+        .main-menu__none {
+            display: none;
+        }
+        .main-menu ul li a:hover {
+            border-bottom: none;
+        }
+        .content-1 { margin-top: 50px;}
+}
+@media only  screen and (max-width: 953px) {
+    .block-menu {
+        padding: 20px 0;    
+    }
+    .content-1 > h2 {
+        margin-bottom: 20px;
+    }
+    .content-1 > p {
+        position: inherit;
+    }
+    
+    .content-2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0;
+    }
+    .content-3__left {
+        display: none;
+    }
+    .content-3 {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .content-3__right {
+      width: ;
+      padding: 0;
+      background: none;
+      align-items: center ;
+      text-align: center;
+    }
+    .content-3 > a {
+            display: none;
+        } 
+    .footer {
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+
+@media only  screen 
+    and (min-width: 1101px) {
+        .hamburger {
+            display: none;
+        }
+}
+
+
+@media only  screen and (max-width: 650px) {
+    .center-block {
+        width: 90%; 
+        
+    }
+    .center-block > a {
+        float: inherit;
+        margin: 0;
+    }
+    .center-block > p {
+        float: inherit;
+        text-align: center;
+        margin: 0;
+    }
+    .center-block > span a {
+        bottom: 10%;
+        left: 50%;
+    }
+    .footer {
+        flex-direction: column;
+        background-position: center;
+        background-size: cover;
+    }
+  
+    .footer-content-4 {
+        justify-content: space-around;
+    }
+     .footer-content-4 h4 {
+       color: #f1ac11;
+    }
+   
+}
+@media only  screen and (max-width: 410px) {
+    .footer {
+      align-items: flex-start;
+    }
+    .footer-content-4 {
+       align-items: flex-start; 
+         justify-content: space-around;
+    }
+    .footer-content-4 h4 {
+        font-size: 17px;
+    }
+    .footer-content-4 input[type="search"] {
+         width: 200px;
+        margin: 0;
+    }
+    .footer-content-4 form>a {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+}
+
+
+
+@media only  screen and (max-width: 500px) {
+    .content-2 {
+        width: 320px;
+    }
+    .menu-price .line-1 {
+        font-size: 13px;
+    
+    }
+    .menu-price .line-2 {
+        display: none;
+    }
+    .menu-price {
+        width: 320px;
+        padding: 10px;
+    }
+    .menu-price > img {
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        
+    }
+    .content-2 > div {
+        width: 320px;
+        margin: 15px 0;
+    }
+    .price {
+        margin-bottom: 5px;
+    }
+}
+
+@media only  screen 
+    and (max-width: 448px) {
+    .hamburger {
+            top: 20px;
+            right: 20px;
+        }
+         .main-menu ul {
+            top: 75px;
+            right: 20px;
+            background-color: rgba(18, 17, 17, 1);
+        }
+        .meat-lovers {
+            min-width: 300px;
+            background-size: cover;
+        }
+        .block-main__nav {
+            justify-content: center;
+        }
+         .center-block > h3 {
+             font-size: 22px;
+    }
+        .center-block {
+            width: 100%;
+        }
+        /*Apple iPhone 6 Plus 414x736*/
+}
+
+
+
+
+@media only  screen 
+    and (max-width: 375px) {
+   
+        /*Apple iPhone 6s 375x667*/
+}
+
+
+
+
+@media only  screen 
+    and (max-width: 320px) {
+  
+}
+
+
+
+@media only  screen 
+    and (max-width: 375px) {
+   
+        /*Apple iPhone 6s 375x667*/
+}
+
+
+@media only  screen 
+    and (max-width: 384px) {
+   
+        /*Google nexus 4 384x640*/
+}
+
+@media only  screen and (max-width: 360px) {
+            
+        }
+        /*Google nexus 5, Samsung Galaxy Note 3, Samsung Galaxy s5, Samsung Galaxy s7  360x640*/
+}
+
+
+@media only  screen 
+    and (max-width: 412px) {
+   
+        /*Google nexus 6 412x732*/
+}
+
+
+@media only  screen 
+    and (max-width: 960px) {
+   
+        /*Google nexus 7 960x600*/
+}
