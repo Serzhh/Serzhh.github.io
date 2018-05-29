@@ -94,7 +94,7 @@
 @media only  screen and (max-width: 1017px) {
      /*            express-logistics             */
     .express-logistics__photo {
-        margin: 20px 0;
+        margin: 20px 0 50px 0;
     }
     .express-logistics {
         justify-content: center;
@@ -257,11 +257,7 @@
 @media only  screen 
     and (max-width: 460px) {
         /*        1й блок адаптация         */
-        .search {
-            position: relative;
-            left: 20%;
-            top: 50px;
-        }
+        
        
         
         .main-block__top {
