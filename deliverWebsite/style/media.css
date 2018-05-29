@@ -181,9 +181,12 @@
         }
         
         .search,
-        .logo,
+       
         .hamburger {
             position: inherit;
+        }
+        .logo {
+            top: 13%;
         }
         .main-block__middle {
             display: flex;
@@ -194,11 +197,18 @@
 /*                                    */
 }
 @media only  screen and (max-width: 500px) {
+    
+    .logo {
+          display: none;
+        }
+    
     .close-menu>div {
          width: 30px !important;
         height: 5px;
     }
-    
+    .search-icon {
+        margin-left: -100px;
+    }
         /*        2й блок адаптация           */
     .awesome-services >h2 {
         font-size: 1.8em;
@@ -254,8 +264,7 @@
     }
 
 
-@media only  screen 
-    and (max-width: 460px) {
+@media only  screen and (max-width: 460px) {
         /*        1й блок адаптация         */
         
        
