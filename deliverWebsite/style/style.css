@@ -54,6 +54,10 @@ body ul {
 }
 .lang-menu__content p  {
     color: #fff;
+    width: 70px;
+    background-image: url(../img/arrow-point-to-right.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .lang-menu__content p > img {
     width: 10px;
@@ -88,6 +92,7 @@ body ul {
 }
 /* Правый блок с выпадающим меню*/
 .country-profile {
+    width: 130px;
     position: absolute;
     right: 375px;
     top: 12px;
@@ -97,16 +102,14 @@ body ul {
     line-height: 24px;
     letter-spacing: 0.42px;
     z-index: 999;
+    
+
 }
 .country-profile__content p {
+    background-image: url(../img/arrow-point-to-right.png);
+    background-repeat: no-repeat;
+    background-position: right;
     cursor: pointer;
-}
-.country-profile__content p > img {
-    width: 10px;
-    height:10px;
-    margin: 7px 0 0 10px;
-    float: right;
-    transition: all 1s;
 }
 .country-dropdown {
     margin-top: 10px;
@@ -186,10 +189,17 @@ body ul {
 }
 /*    logo                         */
 .logo {
+    width: 134px;
+    height: 42px;
     position: absolute;
     left: 379px;
     top: 55px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
+
 /*    search                     */
 .search {
     width: 50px;
@@ -268,6 +278,9 @@ body ul {
     cursor: pointer;
     position: relative;
     z-index: 200;
+    background-image: url(../img/icon-search.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .search-input {
     width: 350px;
