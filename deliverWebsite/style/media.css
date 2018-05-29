@@ -1,0 +1,391 @@
+@media only  screen 
+    and (max-width: 1800px) {
+        
+/*        1й блок адаптация         */
+        .logo {
+            left: 50px;
+        }
+        .search{
+            top: 50px;
+            right: 50px;
+        }
+         .country-profile {
+            right: 50px;
+        }
+        .contact-center {
+            right: 200px;
+        }
+        .lang-menu {
+            left: 50px;
+        }
+/*                                    */
+} 
+@media only  screen and (max-width: 1247px) {
+        .awesome-services  {
+            transform: inherit;
+            margin: 40px 0;
+        }
+        
+/*     three-blocks                */
+        .three-blocks__content {
+            margin: 15px;
+        }
+        .three-blocks  {
+            flex-wrap: wrap;
+        }
+        /*            express-logistics             */
+        .express-logistics{
+            flex-wrap: wrap;
+        }
+        .express-logistics__content,
+        .express-logistics__photo {
+            transform: translate( 0px);  
+        }
+/*        footer                     */
+        .footer-top>div {
+            margin-top: 20px;
+        }
+        .footer-bottom>div {
+            margin: 0 30px;
+        }
+        
+}
+
+
+
+@media only  screen and (max-width: 1080px) {
+        /*        1й блок адаптация         */
+        .main-block__middle {
+            min-height: 180px;
+        }
+        .search{
+            top: 20px;
+        }
+        .logo {
+            top: 20px;
+        }
+        .container-fluid {
+            padding: 0 !important;
+        }
+         .main-menu ul {
+            margin-top: 122px;
+        }
+        .bottom-content {
+            margin: 0;
+        }
+        .main-block__botom {
+        align-items: center;
+        justify-content: center;  
+        padding: 10px;
+        }
+/*                                    */
+        
+/*        footer                     */
+    .footer-bg2,
+    .footer-bg1 {
+        display: none;
+    }
+    .footer-bottom>div {
+        margin-top: 20px;
+    }
+         
+}
+
+@media only  screen and (max-width: 1017px) {
+     /*            express-logistics             */
+    .express-logistics__photo {
+        margin: 20px 0;
+    }
+    .express-logistics {
+        justify-content: center;
+    }
+}
+
+@media only  screen and (max-width: 920px) {
+/*    block video                      */
+    .video {
+        width: 80%;
+        height: 40%;
+    }
+    
+    /*    red-block                 */
+/*
+
+*/
+}
+
+
+
+@media only  screen and (max-width: 800px) {
+    .awesome-services {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 90%;
+    }
+    .awesome-services >h2 {
+        font-size: 3em;
+    }
+}
+
+
+
+@media only  screen 
+    and (max-width: 720px) {
+        /*        1й блок адаптация         */
+        .search-popup {
+            width: 300px;
+        }
+        .search-input {
+            width: 200px;
+            left: 10px;
+        }
+        .search-popup>a {
+            width: 70px;
+            right: 10px;
+        }
+        .close-menu {
+            right: 5px !important;
+            top: 5px !important;
+            display: block!important;
+        }
+        .main-block__middle {
+            position: inherit;
+        }
+        .main-menu {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            z-index: 999;
+        }
+        .main-menu ul {
+            flex-direction: column;
+            margin: 50px 0px 0 0px;
+        }
+        .main-menu ul li {
+            margin: 0;
+            cursor: pointer;
+            padding-left: 17px;
+            padding-bottom: 15px;
+            margin-top: 5px;
+            border-color: #ba0000;
+        }
+        .main-menu  {
+            width: 250px;
+            display: none;
+        }
+        .hamburger {
+            display: block;
+        }
+        
+        .search,
+        .logo,
+        .hamburger {
+            position: inherit;
+        }
+        .main-block__middle {
+            display: flex;
+            justify-content: space-around
+        }
+        
+        
+/*                                    */
+}
+@media only  screen and (max-width: 500px) {
+    .close-menu>div {
+         width: 30px !important;
+        height: 5px;
+    }
+    
+        /*        2й блок адаптация           */
+    .awesome-services >h2 {
+        font-size: 1.8em;
+    }
+/*    block video                             */
+    
+     .block-video > h2 {
+        font-size: 30px;
+        line-height: 40px;
+        }
+    .video {
+        width: 90%;
+        height: 40%;
+    }
+    .close {
+        top: -70px;
+        right: 0px;
+        width: 50px;
+        height: 50px;
+        
+    }
+    .close>div {
+        width: 40px;
+        height: 5px;
+    }
+     /*            express-logistics             */
+    .express-logistics__photo {
+        display: none;
+    } 
+    .express-logistics__content {
+        width: 90%;
+    }
+    .info-list {
+        width: 250px;
+    }
+    .dropdown-list {
+        width: 250px;
+        height: auto;
+    }
+    
+        /*    red-block                 */
+    .red-block {
+        text-align: center;
+        
+    }
+    .red-block__left {
+/*        margin-top: 20px;*/
+        padding: 20px;
+    }
+    .red-block__right {
+        width: 100%;
+    }
+    }
+
+
+@media only  screen 
+    and (max-width: 460px) {
+        /*        1й блок адаптация         */
+        .search {
+            position: relative;
+            left: 20%;
+            top: 50px;
+        }
+       
+        
+        .main-block__top {
+            height: 130px;
+        }
+        .lang-menu,
+        .contact-center,
+        .country-profile {
+            left: 20px;
+        }
+        .country-profile {
+            top: 100px;
+        }
+        .country-profile__content p > img {
+            margin-top: -1px;
+        }
+        .contact-center {
+            top: 55px;
+            width: 100%;
+        }
+        .country-profile__content p > img {
+            float: none;
+        }
+        .contact-center a>img {
+            display: none;
+        }
+        .dropdown-lang {
+            background-color: rgba(0,0,0,0.8);
+            z-index: 100;
+            width: 120px;
+            height: 60px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .country-dropdown {
+            background-color: rgba(0,0,0,0.9);
+            z-index: 100;
+            width: 120px;
+            height: 60px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .bottom-content {
+            min-height: 500px;
+            width: 280px;
+        }
+        .bottom-content h1 {
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+            
+        }
+        .bottom-content p {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .bottom-content h1::after {
+            width: 100%;
+            top: 260px;
+        }
+        .bottom-content ul {
+            flex-direction: column;
+            margin: 20px 0;
+        }
+        .bottom-content  ul li:nth-child(even) {
+            display: none;
+        }
+        .main-block__botom {
+            background-image: linear-gradient(45deg, #ba0000 0%, rgba(255, 204, 0, 0.01) 100%, rgba(255, 204, 0, 0) 100%);
+        }
+/*                                     */
+        .three-blocks__content  {
+            min-width: 270px;
+            margin: 20px 10px;
+        }
+        .three-blocks__content>h3 {
+            margin-left: 10px;
+        }
+        .three-blocks__content>ul  {
+            margin: 35px 0 0 10px;
+        }
+        
+}
+
+
+
+
+@media only  screen 
+    and (max-width: 320px) {
+   
+        /*Apple iPhone SE, Nokia Lumia 520 320x568*/
+}
+
+
+
+@media only  screen 
+    and (max-width: 375px) {
+   
+        /*Apple iPhone 6s 375x667*/
+}
+
+
+@media only  screen 
+    and (max-width: 384px) {
+   
+        /*Google nexus 4 384x640*/
+}
+
+@media only  screen and (max-width: 360px) {
+            
+        }
+        /*Google nexus 5, Samsung Galaxy Note 3, Samsung Galaxy s5, Samsung Galaxy s7  360x640*/
+}
+
+
+@media only  screen 
+    and (max-width: 412px) {
+   
+        /*Google nexus 6 412x732*/
+}
+
+
+@media only  screen 
+    and (max-width: 960px) {
+   
+        /*Google nexus 7 960x600*/
+}
