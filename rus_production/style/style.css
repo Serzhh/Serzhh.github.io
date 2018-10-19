@@ -1,0 +1,706 @@
+body {
+    max-width: 1900px;
+    
+    margin: 0 auto;
+}
+
+body ul li {
+    list-style-type: none;
+    
+    display: block;
+}
+
+.block1 {
+    width: 100%;
+    min-height: 606px;
+
+    background:  url(../img/main-block-bg.png) no-repeat ;
+}
+
+.block1 header {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around
+}
+
+.block1-logo {
+    width: 487px;
+    height: 91px;
+    
+    background: url(../img/logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.main-menu-contain {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-menu ul{
+    display: flex;
+}
+
+.main-menu ul li {
+    margin-right: 45px;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 20px;
+    font-weight: 500;
+    
+    text-transform: uppercase;
+}
+
+.main-menu ul li a {
+    color: #023f7e;
+}
+
+.main-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.block1-info {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+}
+
+.opt {
+    margin-right: 10%;    
+}
+
+.opt p {
+    margin: 0;
+    padding-left: 25px;
+    
+    color: #ffffff;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 51px;
+    font-weight: 400;
+    
+    background-color: #023f7e;
+}
+
+.opt p:nth-child(1) {
+    width: 77%;
+
+    padding-top: 20px;    
+}
+
+.opt p:nth-child(2) {
+    width: 110%;
+}
+
+.opt p:nth-child(3) {
+    width: 85%;
+    
+    padding-bottom: 20px;
+}
+
+.block1-form {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.block1-form form {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 43%;
+}
+
+.block1-form form p {
+    color: #000000;
+    
+    font-family: "pfsquaresanspro-regular";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.block1-form form input {
+    height: 50px;
+    
+    padding-left: 35px;
+    
+    border: 1px solid #000000;
+    
+    box-shadow: inset 0 3px 7px rgba(2, 2, 2, 0.15);
+    
+    font-family: "pfsquaresanspro-regular";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.block1-form form a {
+    width: 375px;
+    height: 50px;
+    
+    margin-top: 10px;
+    
+    color: #ffffff;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+    
+    border-radius: 2px;
+    background-color: #ef3026;
+    
+    transition: all 0.3s ease;
+}
+
+.block1-form form a:hover {
+    box-shadow: 0px 0px 10px 5px lightgray;
+    
+    transition: all 0.3s ease;
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+    .block1 {
+        background-size: contain;
+    }
+    
+    .block1 header div:first-child,
+    .main-menu-contain div:first-child,
+    .block1-info div:first-child,
+    .block1-form div:first-child {
+        display: none;
+    }
+    
+    .block1-form form {
+        margin: 0;
+    }
+    
+    
+    .opt p:nth-child(2) {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .block1-logo {
+        width: 100%;
+    }
+    
+    .opt p {
+        font-size: 31px;
+    }
+    
+    .main-menu ul  {
+        flex-direction: column;
+    }
+    
+    .main-menu ul li {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .block1-form form {
+        width: 90%;
+    }
+    
+    .block1-form form a {
+        width: 100%;
+    }
+    
+    .block1-form form a {
+        font-size: 21px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block2 {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block2-content {
+    width: 1000px;
+    height: 100%;
+    
+    display: flex;
+    
+    background-color: #fff;
+}
+
+.content-left {
+    width: 50%;
+    height: 100%;
+    
+    background: url(../img/info-line.png) no-repeat;
+    background-position: 95.5% 123px;
+}
+
+.content-right {
+    width: 50%;
+    height: 100%;
+}
+
+.block2-content h2 {
+    height: 54px;
+    
+    margin: 0 0 25px 0 ;
+    padding-left: 20px;
+    
+    color: #023f7e;
+    
+    border-left: 20px solid #023f7e;
+    
+    display: flex;
+    align-items: center;
+}
+
+#content-left-catalog {
+    height: 54px;
+    
+    border-left: 21px solid #023f7e;
+    
+    display: flex;
+    align-items: center;
+    
+    padding-left: 20px;
+    margin: 60px 0 0 20px ;
+    
+    color: #023f7e;
+
+    text-decoration: none;
+}
+
+.block2-content a {
+    color: #ef3026;
+    
+    margin: 0 0 12px 30px;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.block2-content p {
+    color: #000000;
+    
+    margin: 0 0 15px 30px;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content-left,
+.content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right h2 {
+    border: 0   
+}
+
+.content-left-img {
+    width: 370px;
+    height: 371px;
+    
+    margin-bottom: 17px;
+    
+    background-image: url(../img/armchair.png);
+}
+
+.content-right-img {
+    width: 370px;
+    height: 371px;
+    
+    background-image: url(../img/armchair-2.png);
+}
+
+.product-info {
+    width: 90%;
+    
+    background-color: #f1f1f1;
+}
+
+.product-info ul {
+    padding: 0;
+    margin: 20px;
+}
+
+.product-info ul li {
+    color: #000000;
+    
+    font-family: "pfsquaresanspro-regular";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.product-info ul li img {
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+    
+    .content-left {
+        background-image: none;
+    }
+    
+    .block2-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .content-left,
+    .content-right {
+        width: 100%;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .content-left {
+        margin-top: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .block2-content p {
+        width: 80%;
+        
+        margin: 0;
+    }
+    
+    .product-info {
+        width: 80%;
+    }
+    
+    .content-left-img,
+    .content-right-img{
+        width: 300px;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    min-height: 620px;
+    
+    display: flex;
+/*    justify-content: center;*/
+    flex-direction: column;
+    
+    align-items: center;
+    margin-top: 50px;
+}
+
+.million {
+    width: 1200px;
+    min-height: 124px;
+    
+    display: flex;
+    
+    background-color: #023f7e;
+}
+
+.million div:first-child {
+    width: 27%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    border-right: 10px solid #fff;
+    
+    padding-right: 30px;
+    
+    color: #ffffff;
+    font-family: "PF Square Sans Pro";
+    font-size: 74px;
+    
+}
+
+.million div span p {
+    font-size: 14px;
+    
+    margin: 0;
+}
+
+.million div:last-child {
+    padding: 22px 20px;
+}
+
+.million div h3  {
+    margin: 0;
+    
+    color: #ffffff;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.million div p {
+    margin: 0;
+    
+    color: #ffffff;
+    
+    font-family: "pfsquaresanspro-regular";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.three-colomn {
+    width: 1200px;
+    
+    margin-top: 60px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-colomn div {
+    width: 326px;
+}
+
+.three-colomn div span {
+    color: #000000;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 16px;
+}
+
+.three-colomn div p {
+    margin: 10px 0 0 0;
+    
+    font-size: 16px;
+    font-family: "pfsquaresanspro-regular";
+    
+}
+
+.two-line {
+    width: 1200px;
+    min-height: 240px;
+    
+    margin-top: 30px;
+    
+    border-top: 3px solid #023f7e;
+    border-bottom: 3px solid #023f7e;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-line div:first-child {
+    width: 60%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.two-line div:first-child  ul {
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+}
+
+.two-line div:first-child  ul li {
+    margin-right: 30px;
+}
+
+.two-line div:first-child  ul li:last-child {
+    margin-right: 0px;
+}
+
+.two-line div:first-child  ul li a{
+    color: #000000;
+    
+    font-family: "pfsquaresanspro-regular";
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+
+
+
+.two-line div:last-child {
+    width: 30%;
+    height: 100%;
+}
+
+.two-line div:last-child ul {
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two-line div:last-child ul li {
+    width: 280px;
+
+    margin-top: 20px;
+    
+    color: #000000;
+    
+    font-family: "PF Square Sans Pro";
+    font-size: 14px;
+    
+}
+
+.two-line div:last-child ul li a {
+    color: #000;
+}
+
+@media only screen and (max-width: 1220px) {
+    
+    .million,
+    .two-line,
+    .three-colomn{
+        width: 100%;
+    
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .two-line {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .two-line div:last-child ul {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        
+        padding: 0;
+    }
+    
+    .two-line div:last-child {
+        width: 100%;
+        height: 50%;
+    
+    }
+    
+    .two-line div:first-child {
+        width: 100%;
+        height: 50%;
+    
+    }
+    
+    .two-line div:last-child ul li {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    
+    .two-line div:first-child ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .two-line div:first-child ul li {
+        margin: 5% 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .three-colomn {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .three-colomn div {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .two-line div:last-child ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .two-line {
+        border-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .three-colomn div {
+        width: 100%;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+
+@font-face {
+    font-family: PF Square Sans Pro;
+    src: url(../font/pfsquaresanspro-bold.ttf);
+}
+
+@font-face {
+    font-family: pfsquaresanspro-bolditalic;
+    src: url(../font/pfsquaresanspro-bolditalic.ttf);
+}
+
+@font-face {
+    font-family: pfsquaresanspro-italic;
+    src: url(../font/pfsquaresanspro-italic.ttf);
+} 
+@font-face {
+    font-family: pfsquaresanspro-regular;
+    src: url(../font/pfsquaresanspro-regular.ttf);
+} 
