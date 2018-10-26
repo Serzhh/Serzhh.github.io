@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: ANCUUB;
+    src: url(../font/Ancuu/ANCUUB.ttf);
+}
+
+@font-face {
+    font-family: ANCUU;
+    src: url(../font/Ancuu/ANCUU.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-ExtraBold;
+    src: url(../font/open_sans/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../font/open_sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../font/open_sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../font/open_sans/OpenSans-Regular.ttf);
+}
+
+ 
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../font/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../font/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../font/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(../font/roboto/Roboto-LightItalic.ttf);
+}
+
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../font/roboto/Roboto-Black.ttf);
+}
+
+
