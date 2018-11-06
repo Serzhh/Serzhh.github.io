@@ -14,6 +14,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
+     
+    <div class="preloader-view loaderArea">
+    <div class="container ">
+      <div class="dash uno"></div>
+      <div class="dash dos"></div>
+      <div class="dash tres"></div>
+      <div class="dash cuatro"></div>
+    </div>
+    </div>
+
+
+     
+     
       <header>
           <div class="header-wrapper">
               <p>Привет! Меня зовут Сергей и Я</p>
@@ -171,8 +184,22 @@
     </footer>
     <div class="go-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
+
+
+
+
+
  <script src="js/jquery-3.3.1.js"></script>      
  <script src="js/mainjs.js"></script>  
  <script src="revealator-master/fm.revealator.jquery.js"></script>
+ 
+ <script>
+  $(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.loader');
+    $loader.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+  });
+</script>
 </body>
 </html>
