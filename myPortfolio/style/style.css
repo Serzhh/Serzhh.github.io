@@ -167,7 +167,7 @@ header {
     
     background-color: #ddd;
     
-    background: url(../img/header-phone.jpg) no-repeat;
+    background: url(../img/header-phone.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -919,7 +919,7 @@ nav {
 .are-you-ready {
     width: 100%; height: 260px;
     
-    background-image: url(../img/item-3.jpg);
+    background-image: url(../img/item-3.png);
     background-position: center 0;
     
     color: #fff;
