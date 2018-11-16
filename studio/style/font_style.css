@@ -1,0 +1,16 @@
+
+
+@font-face {
+    font-family: FiraSans-Book;
+    src: url(../font/FiraSans-Book.otf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../font/Lato-Light.ttf);
+}
